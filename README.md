@@ -12,34 +12,7 @@ Se utiliza una vista SideMenuView que contiene un listado de opciones de menú (
 La navegación cambia según la opción seleccionada, actualizando la pantalla principal mediante un @Binding al selectedScreen.
 
 # Estructura del proyecto
-
-DrawerMenu
-├── Assets.xcassets
-│   ├── AccentColor.colorset
-│   │   └── Contents.json
-│   ├── AppIcon.appiconset
-│   │   └── Contents.json
-│   └── Contents.json
-├── DrawerMenuApp.swift        # Vista principal con el ZStack y el control del menú
-├── Models
-│   └── Menu
-│       └── MenuOption.swift   #Enum que define las opciones del menú
-├── Preview Content
-│   └── Preview Assets.xcassets
-│       └── Contents.json
-└── Views
-    ├── Home
-    │   └── HomeView.swift     #Pantalla principal
-    ├── Main
-    │   └── MainView.swif      # Vista principal con el ZStack y el control del menú
-    ├── Menu
-    │   ├── SideMenuRow.swift  # Vista individual para cada opción del menú
-    │   └── SideMenuView.swift # Contenedor completo del menú lateral
-    ├── Product
-    │   └── ProductView.swift  # Gestión de productos
-    └── User
-        └── UserView.swift     # Gestión de usuarios
-
+![Screenshot 2025-04-04 at 11 31 47 a m](https://github.com/user-attachments/assets/5e7e439f-faa2-47e9-8409-9ce32922fc5d)
 
 # 🧱 Construcción del menú paso a paso
 Definir las opciones del menú:
